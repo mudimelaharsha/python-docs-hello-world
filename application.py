@@ -4,9 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello World!"
-
-    import pyodbc 
+     
     # Some other example server values are
     # server = 'localhost\sqlexpress' # for a named instance
     # server = 'myserver,port' # to specify an alternate port
@@ -23,3 +21,4 @@ def hello():
 
     for row in cursor:
         print(row)
+    return(row)
