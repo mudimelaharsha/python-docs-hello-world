@@ -8,7 +8,7 @@ def hello():
     # Some other example server values are
     # server = 'localhost\sqlexpress' # for a named instance
     # server = 'myserver,port' # to specify an alternate port
-    server = 'tcp:13.89.121.76' 
+    server = 'tcp:mibelhewinvm.centralus.cloudapp.azure.com' 
     database = 'test' 
     username = 'milindvb' 
     password = 'test123456789###' 
