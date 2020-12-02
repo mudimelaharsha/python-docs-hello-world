@@ -17,7 +17,7 @@ def hello():
     cursor = cnxn.cursor()
 
     cursor.execute('SELECT * FROM dbo.Users')
-
+    s = ' '
     for row in cursor:
         s += ''.join(row)
         print(row)
