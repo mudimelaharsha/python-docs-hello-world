@@ -20,4 +20,4 @@ def hello():
 
     for row in cursor:
         print(row)
-    return(row)
+    return "hello"
