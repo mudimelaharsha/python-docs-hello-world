@@ -19,5 +19,6 @@ def hello():
     cursor.execute('SELECT * FROM dbo.Users')
 
     for row in cursor:
+        s += ''.join(row)
         print(row)
-    return "hello"
+    return "hello"+s
