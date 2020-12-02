@@ -16,7 +16,6 @@ def hello():
     cnxn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password)
     cursor = cnxn.cursor()
 
-    cursor = conn.cursor()
     cursor.execute('SELECT * FROM dbo.Users')
 
     for row in cursor:
