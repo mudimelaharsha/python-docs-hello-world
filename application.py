@@ -10,7 +10,7 @@ def hello():
     # server = 'myserver,port' # to specify an alternate port
     server = 'tcp:mytest.centralus.cloudapp.azure.com' 
     database = 'test' 
-    username = 'milindvb' 
+    username = 'ndb' 
     password = 'test1789###' 
 
     cnxn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password)
