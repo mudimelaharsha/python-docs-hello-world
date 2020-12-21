@@ -8,10 +8,10 @@ def hello():
     # Some other example server values are
     # server = 'localhost\sqlexpress' # for a named instance
     # server = 'myserver,port' # to specify an alternate port
-    server = 'tcp:mibelhewinvm.centralus.cloudapp.azure.com' 
+    server = 'tcp:mytest.centralus.cloudapp.azure.com' 
     database = 'test' 
     username = 'milindvb' 
-    password = 'test123456789###' 
+    password = 'test1789###' 
 
     cnxn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password)
     cursor = cnxn.cursor()
