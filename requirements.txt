@@ -1,2 +1,23 @@
-Flask==1.0.2
-pyodbc
+--find-links https://download.pytorch.org/whl/torch_stable.html
+numpy
+requests
+pandas
+bs4
+sentence_transformers
+openai
+faiss-cpu
+gspread
+gspread_dataframe
+oauth2client
+imdbpy
+jenkspy
+tmdbsimple
+kmeans1d
+torch==1.7.1+cpu
+mysqlclient
+justwatch
+fuzzywuzzy
+finnhub-python
+json2table
+seaborn
+flask-mobility
