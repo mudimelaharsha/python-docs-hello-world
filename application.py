@@ -21,5 +21,5 @@ def hello():
     # for row in cursor:
     #    s += ''.join(row)
     #    print(row)
-    s = 'Azure'
+    s = '!! Azure'
     return "hello"+s
